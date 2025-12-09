@@ -3,12 +3,17 @@ import { ChevronRight } from "lucide-react"
 const sections = [
   { id: "introduction", title: "1. Introduction", description: "Project overview and objectives" },
   { id: "system-model", title: "2. System Model Definition", description: "MuJoCo simulation setup" },
-  { id: "optimization", title: "3. Design Optimization", description: "Parameter sweep methodology" },
-  { id: "manufacturing", title: "4. Manufacturing", description: "5-layer laminate assembly" },
-  { id: "experimental", title: "5. Experimental Validation", description: "Tracker analysis and testing" },
-  { id: "results", title: "6. Results & Discussion", description: "Hardware vs simulation comparison" },
-  { id: "future-work", title: "7. Future Work", description: "Design and modeling improvements" },
-  { id: "conclusions", title: "8. Conclusions", description: "Summary of findings" },
+  {
+    id: "parameter-identification",
+    title: "3. Parameter Identification",
+    description: "Servo, stiffness, and friction parameters",
+  },
+  { id: "optimization", title: "4. Design Optimization", description: "Parameter sweep methodology" },
+  { id: "manufacturing", title: "5. Manufacturing", description: "5-layer laminate assembly" },
+  { id: "experimental", title: "6. Experimental Validation", description: "Tracker analysis and testing" },
+  { id: "results", title: "7. Results & Discussion", description: "Hardware vs simulation comparison" },
+  { id: "future-work", title: "8. Future Work", description: "Design and modeling improvements" },
+  { id: "conclusions", title: "9. Conclusions", description: "Summary of findings" },
 ]
 
 export function TableOfContents() {

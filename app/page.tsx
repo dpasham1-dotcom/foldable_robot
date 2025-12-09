@@ -3,6 +3,7 @@ import { ExecutiveSummary } from "@/components/executive-summary"
 import { TableOfContents } from "@/components/table-of-contents"
 import { IntroductionSection } from "@/components/introduction-section"
 import { SystemModelSection } from "@/components/system-model-section"
+import { ParameterIdentificationSection } from "@/components/parameter-identification-section"
 import { OptimizationSection } from "@/components/optimization-section"
 import { ManufacturingSection } from "@/components/manufacturing-section"
 import { ExperimentalSection } from "@/components/experimental-section"
@@ -19,6 +20,7 @@ export default function Home() {
       <TableOfContents />
       <IntroductionSection />
       <SystemModelSection />
+      <ParameterIdentificationSection />
       <OptimizationSection />
       <ManufacturingSection />
       <ExperimentalSection />
