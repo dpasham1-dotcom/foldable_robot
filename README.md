@@ -10,6 +10,16 @@
 This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
 Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
+## Videos
+
+### Project Video
+
+[![Project Video](https://img.youtube.com/vi/8CPUg78EOZw/0.jpg)](https://youtu.be/8CPUg78EOZw)
+
+### Robot Motion Video
+
+[![Robot Motion Video](https://img.youtube.com/vi/7wfLv5qTLVk/0.jpg)](https://www.youtube.com/watch?v=7wfLv5qTLVk)
+
 ## Deployment
 
 Your project is live at:
